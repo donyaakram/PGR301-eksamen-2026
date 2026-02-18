@@ -1,0 +1,6 @@
+# PGR301-eksamen-2026
+
+OPPGAVE 1: 
+
+OPPGAVE 2: 
+
