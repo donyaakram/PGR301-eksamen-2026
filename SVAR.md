@@ -2,5 +2,61 @@
 
 OPPGAVE 1: 
 
+Når teamet går fra en utvikler til flere. Er det viktig å lage et strukturert arbeidsflyt som sikrer til kvalitet og god samarbeid.
+
+**Branch**: 
+Teamet kan bruke en strategi for branch basert på github flow. Main skal alltid inneholde en produksjonsklar kode som er stabil. Hver medlem av teamet som utvikler vil gjøre det i egen feature branches.
+Det er for å holde det trygt for at flere utviklere kan jobbe uten å påvirke hverandre. En branch vil opprettes hver gang en ny oppgave, forbedring eller bugfix startes. Navnene for branch skal være korte og beskrivende. Dette vil gi en lettere forståelse for hva som blir lagt inn. 
+
+**Pull request prosess:**
+Når man er ferdig med oppgaven sin i feature branch, skal det alltid opprettes en pull request før koden merges inn i main. Pull request er en viktig del for å kvalitets sikre i teamet. En pull request skal opprettes når en funksjonalitet er ferdig implentert og bygger uten feil. 
+Pull request bør være begrenset eller små for at det skal være enklere å gjennomgå og redusere risikoen for at feil oppstår. Mindre pull request er enklere å oppdage problemer tidlig, men også å gi raskere beskjed. 
+Alle pull request skal gjennomgås av minst en fra teamet. Dette er viktig for å sikre at koden fungerer som forventet. Kode review gjør det enklere å oppdage feil underveis.
+
+**Branch protection**
+Branch protection sørger for at alle endringer gjennomgår kvalitetssikring før de blir pushet til main. Dette er viktig fordi main alltid skal inneholde funksjonerende kode. Når flere utviklere jobber samtidig, kan det oppstå feil eller at uferdig kodet blir pushet direktet til hoved branchen.
+
+Hva man kan gjøre for å sikre branch protection:
+- **Push til main:** Man kan ikke pushe direkte til main. Alle endringer må sende pull request, og den må godkjennes før den går til main. 
+- **Kode reviewer:** En fra teamet må godkjenne om pull request er sikret før den kan pushes. 
+- **Branch oppdatering:** Om main har nye commits må man oppdatere branch før man sender en pull request. 
+- **Automatiske sjekker:**
+
+**Automatisering**
+Automatisering skal settes opp med github actions for at kvaliteten skal opprettholdes uten manuelle steg. Disse automatiske sjekkene skal kjøre hver gang kode sendes inn for å klare å oppdage feil tidlig.
+
+Bygg av applikasjon: 
+- Prosjektet skal bygges opp automatisk for å sjekke at koden fungerer og at alle avhengigheter er satt opp riktig
+
+Automatiske tester:
+- Enhetstester kjøres automatisk for å sjekke at funksjonene virker som de skal. Om en test feiler, vil ikke pull request merges. 
+
+Sikkerhetsskanning av docker-image:
+- Når Docker-image bygges blir den scannet for sårbarheter før den kan brukes videre.
+
+Docker build og push:
+- Når kode merges til main, bygges en ny docker image automatisk og lastes opp til ett container registry. 
+
+___
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 OPPGAVE 2: 
+
+
+
+
 
