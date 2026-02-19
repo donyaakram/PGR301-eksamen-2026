@@ -39,6 +39,43 @@ Docker build og push:
 
 ___
 
+Oppgave 2: 
+
+**FØR**
+
+
+
+
+
+
+**ETTER**
+
+
+Jeg testet docker image med kommandoen: 
+
+docker build -t quiz-app .
+docker run -p 8080:8080 \
+-e AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \
+-e AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY \
+quiz-app
+
+Containeren startet opp og spring boot viste at porten kjørte. 
+
+Docker container starter opp. Fant tilslutt at endepunktet var "http://localhost:8080/api/quiz/health". Hvor siden kom til "DevOps Quiz is Generator is running"
+
+
+----
+
+Oppgave 3:
+
+
+
+____
+
+Oppgave 4:
+
+
+
 
 
 
