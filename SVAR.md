@@ -51,6 +51,7 @@ Oppgave 2:
 
 
 **ETTER**
+<img width="582" height="45" alt="dockerAfter" src="https://github.com/user-attachments/assets/b6a41e1d-2d3a-493c-86ae-4da1c79f8058" />
 
 
 Jeg testet docker image med kommandoen: 
