@@ -78,24 +78,13 @@ ____
 
 Oppgave 4:
 
+**Hvorfor blir DevOps viktigere når AI gjør oss produktive?**
 
+Kunstlig intelligens som github copilot, chatGPT og claude har endret måten utviklere jobber. Oppgaver eller prosjekter som tidligere tok flere timer, kan i dag løses på minutter. Men med dette kommer det også usikkerheter, og enklere for feil å oppstå underveis.
 
+For det første, AI kan genere kode på sekunder. Som vil si at det kommer mange endringer på kort tid. Selvom AI kommer med løsninger er det ikke alltid at det er trygt eller riktig. Derfor er det greit å ha gode DevOps rutiner, som gjør at man sikrer seg til en kode som gjør det den skal.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-OPPGAVE 2: 
+ 
 
 
 
