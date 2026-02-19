@@ -43,6 +43,8 @@ Oppgave 2:
 
 **FØR**
 
+<img width="469" height="43" alt="dockerBefore" src="https://github.com/user-attachments/assets/a9e50a4a-5d8d-4e2f-a8c9-e71b542ddace" />
+
 
 
 
